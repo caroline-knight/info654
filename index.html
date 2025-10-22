@@ -1,10 +1,300 @@
-<!DOCTYPE html?
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>hello world</title>
-    </head>
-    <body>
-        hello world
-    </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Favorite Sky Pictures</title>
+<style>
+    #header, #footer {
+        width: 100%;
+        text-align: center;
+        border-radius: 20px;
+    }
+    #header {
+        background: #dba79b;
+        color: #182e3c;
+        padding-top: 5px;
+        border-bottom: 5px solid #AD6A5E;
+    }
+    #footer {
+        clear: left;
+        background: #dba79b;
+        color: black;
+        padding-top: 2px;
+        padding-left: 8px;
+        border-bottom: 5px solid #AD6A5E;
+    }
+    #leftnav {
+        position: relative;
+        border-radius: 15px;
+        margin: 10px;
+        float: left;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        border: 3px outset #151626;
+        width: 25%;
+        height: auto;
+    }
+    body {
+        background-color: #D1DBE4;
+    }
+    h1 {
+        text-align: center;
+        font-weight: 100;
+        font-size: 36pt;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 24pt;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h3 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 18pt;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h4 {
+        text-align: left;
+        color: #235ed3;
+        font-weight: 400;
+        font-size: 24pt;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p {
+        text-align: left;
+        font-weight: 400;
+        font-size: 12pt;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+    }
+    ul {
+        list-style-type: circle
+    }
+    ul li {
+        text-align: left;
+        font-size: 16px;
+    }
+    table {
+        text-align: center;
+        border-width: thin;
+        border-color: black;
+        border-style: solid;
+    }
+    td {
+        border-width: thin;
+        border-color: black;
+        border-style: solid;
+    }
+    .table {
+        display: table;
+    }
+    .heading {
+        display: table-row;
+    }
+    .row {
+        display: table-row;
+    }
+    .cell {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        border-color: #182e3c;
+        text-align: left;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+</style>
+</head>
+<body>
+    <div id="header">
+        <h1>My Favorite Sky Pictures</h1>
+        <h2>INFO 654 Web Basics Assignment</h2>
+        <h3>Caroline Knight Henderson</h3>
+        <h3>October 22, 2025</h3>
+        <h3> <img src="sun_image_favorites.png" alt="Favorite Skies" width="200" height="200"> 
+                <a href="bad_sunsets.html">
+                    <img src="sun_image_link_bad_sunsets.png" alt="Bad Sunsets" width="200" height="200"></a> 
+                <a href="nc_skies.html">
+                    <img src="sun_image_link_nc_skies.png" alt="NC Skies" width="200" height="200"></a>
+            </h3>
+    </div>
+    <div id="leftnav">
+        <h4>What makes a good sky picture?</h4>
+            <ul>
+                <li>Bold colors, especially orange, red, and purple</li>
+                <li>Reflections on water</li>
+                <li>Sentimental value/positive memories</li>
+            </ul>
+    </div>
+    <div id="centerbody"></div>
+            <p>The following table shows my top 16 favorite pictures of sunrises and sunsets ranked. Each row contains the ranking, the image, the location, and the year the picture was taken. My top 5 also include descriptions with additional background information.</p>
+    <div class="table">
+        <div class="heading">
+            <div class="cell">
+                <p>Rank</p></div>
+            <div class="cell">
+                <p>Image</p></div>
+            <div class="cell">
+                <p>Description</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>1</p></div>
+            <div class="cell">
+                <img src="sunset_1_zanzibar_2018.png" alt="Zanzibar Beach Sunrise" width="300" height="300"></div>
+            <div class="cell">
+                <p>Zanzibar, Tanzania (2018). 
+                <p>This sunrise is ranked first for both its beauty and its sentimental value. I had wanted to go to Tanzania to visit Zanzibar and Kilimanjaro since I was little, and I am thankful I had the opportunity to see both!</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>2</p></div>
+            <div class="cell">
+                <img src="sunset_2_emerald_isle_metal_detector_2025.png" alt="Emerald Isle Beach Sunrise with Metal Detector" width="300" height="300"></div>
+            <div class="cell">
+                <p>Emerald Isle, North Carolina (2025).</p>
+                <p>This is a sunrise on the beach where I grew up featuring <a href="https://seriousdetecting.com/products/minelab-equinox-800-metal-detector-w-15-double-d-waterproof-smart-search-coil">this</a> awesome metal detector.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>3</p></div>
+            <div class="cell">
+                <img src="sunset_3_washington_heights_2022.png" alt="Sunset Over the George Washington Bridge" width="300" height="300"></div>
+            <div class="cell">
+                <p>New York, New York (2022).</p>
+                <p>I took this picture of the sunset over the George Washington Bridge the week I moved to New York. I like the clouds. My favorite part is the sailboat.</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>4</p></div>
+            <div class="cell">
+                <img src="sunset_4_capri_2020.png" alt="Capri Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>Capri, Italy (2020).</p>
+                <p>I took this picture on the ferry between Sorrento and Capri in March 2020...Yes I was in Italy in March 2020, and yes I did get Covid. A fun fact about me is that after I was evacuated from my study abroad program, I had the 81st Covid case diagnosed in North Carolina. Fortunately I was able to effectively quarantine and was mostly fine. This is one of my favorite sunset pictures in part because it reminds me of one of the last moments pre-pandemic.</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>5</p></div>
+            <div class="cell">
+                <img src="sunset_5_new_york_plane_2021.png" alt="Plane Sunrise" width="300" height="300"></div>
+            <div class="cell">
+                <p>Somewhere Over the Mid-Atlantic (2021).</p>
+                <p>This is another sunrise from a trip I took to New York before moving here.</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>6</p></div>
+            <div class="cell">
+                <img src="sunset_6_emerald_isle_2025.png" alt="Emerald Isle Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>Emerald Isle, North Carolina (2025).</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>7</p></div>
+            <div class="cell">
+                <img src="sunset_7_new_york_2023.png" alt="New York Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>New York, New York (2023).</p>
+                <p>Taken from the <a href="https://www.rockefellercenter.com/attractions/top-of-the-rock-observation-deck">Top of the Rock Observation Deck</a>.</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>8</p></div>
+            <div class="cell">
+                <img src="sunset_8_grand_canyon_2022.png" alt="Grand Canyon Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>Grand Canyon, Arizona (2022).</p>
+               </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>9</p></div>
+            <div class="cell">
+                <img src="sunset_9_bald_head_2024.png" alt="Bald Head Island Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>Bald Head Island, North Carolina (2024).</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>10</p></div>
+            <div class="cell">
+                <img src="sunset_10_puerto_rico_2024.png" alt="San Juan Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>San Juan, Puerto Rico (2024).</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>11</p></div>
+            <div class="cell">
+                <img src="sunset_11_swansboro_2025.png" alt="Swansboro Neighborhood Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>Swansboro, North Carolina (2025).</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>12</p></div>
+            <div class="cell">
+                <img src="sunset_12_chapel_hill_2019.png" alt="Chapel Hill Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>Chapel Hill, North Carolina (2019).</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>13</p></div>
+            <div class="cell">
+                <img src="sunset_13_swansboro_2024.png" alt="Swansboro Driveway Sunset" width="300" height="300"></div>
+            <div class="cell">
+                <p>Swansboro, North Carolina (2024).</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>14</p></div>
+            <div class="cell">
+                <img src="sunset_14_bald_head_2024.png" alt="Bald Head Island Sunset" width="300" height="300" opacity="1.0"></div>
+            <div class="cell">
+                <p>Bald Head Island, North Carolina (2024).</p></div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>15</p></div>
+            <div class="cell">
+                <a href="https://library.unc.edu/wilson"><img src="sunset_15_chapel hill_2020.png" alt="Chapel Hill Sunset" width="300" height="300"></a></div>
+            <div class="cell">
+                <p>Chapel Hill, North Carolina (2020).</p>
+                <p>Click the image to learn more about Wilson Library, pictured.</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>16</p></div>
+            <div class="cell">
+                <img src="sunset_16_rio_2025_2.png" alt="Rio Sunset" width="300" height="300" opacity="1.0"></div>
+            <div class="cell">
+                <p>Rio de Janeiro, Brazil (2025).</p></div>
+        </div>
+    </div>
+<p> </p>
+    <div id="footer">
+        <h2>Thank you!</h2>
+        <p>&#169; Caroline Knight Henderson (2025)</p>
+        <p>
+            (910) 358-4140 / 
+            <a href="mailto:chend227@pratt.edu">chend227@pratt.edu</a> / 
+            <a href="https://www.linkedin.com/in/caroline-knight-henderson-86524a170">LinkedIn</a>.
+        </p>
+    </div>
+</body>
 </html>
